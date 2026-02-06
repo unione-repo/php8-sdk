@@ -1,0 +1,47 @@
+{
+    "name": "unione-repo/php8-sdk",
+    "version": "1.0.0",
+    "description": "All UniOne API methods require HTTPS connection. UniOne accepts HTTP POST requests in JSON format up to 10 megabytes long and returns HTTP response also in JSON. API endpoint (or base URL) depends on which datacenter the user is registered at.<br>You can use https://eu1.unione.io/en/transactional/api/v1 or https://us1.unione.io/en/transactional/api/v1 directly.",
+    "keywords": [
+        "openapitools",
+        "openapi-generator",
+        "openapi",
+        "php",
+        "sdk",
+        "rest",
+        "api"
+    ],
+    "homepage": "https://openapi-generator.tech",
+    "license": "unlicense",
+    "authors": [
+        {
+            "name": "OpenAPI-Generator contributors",
+            "homepage": "https://openapi-generator.tech"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^7.4.5",
+        "guzzlehttp/psr7": "^2.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.5",
+        "overtrue/phplint": "^9.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": { "UniOne\\" : "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "UniOne\\Test\\" : "tests/" }
+    },
+    "scripts": {
+        "test": [
+            "@phplint"
+        ],
+        "phplint": "phplint"
+    }
+}
