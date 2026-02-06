@@ -1,6 +1,6 @@
 # php8-sdk
 
-All UniOne API methods require HTTPS connection. UniOne accepts HTTP POST requests in JSON format up to 10 megabytes long and returns HTTP response also in JSON. API endpoint (or base URL) depends on which datacenter the user is registered at.<br>You can use https://eu1.unione.io/en/transactional/api/v1 or https://us1.unione.io/en/transactional/api/v1 directly.
+All UniOne API methods require HTTPS connection. UniOne accepts HTTP POST requests in JSON format up to 10 megabytes long and returns HTTP response also in JSON. API endpoint (or base URL) depends on which datacenter the user is registered at.<br>The preferred way is to use https://api.unione.io/en/transactional/api/v1 endpoint, but also you can use https://eu1.unione.io/en/transactional/api/v1 or https://us1.unione.io/en/transactional/api/v1 directly, depending on the host your account was registered at.
 
 For more information, please visit [https://cp.unione.io/en/support](https://cp.unione.io/en/support).
 
